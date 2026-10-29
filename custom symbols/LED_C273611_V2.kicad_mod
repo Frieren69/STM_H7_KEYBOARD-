@@ -1,0 +1,142 @@
+(footprint "LED_C273611_V2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "TOGIALED TJ-S1615SW6TGLCCSRGB-A5 C273611. Recommended pad layout from datasheet page 2. Top view: 1 green upper right, 2 blue upper left, 3 red lower left, 4 common cathode lower right.")
+	(tags "RGB LED common cathode C273611")
+	(property "Reference" "REF**"
+		(at 0 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "681d146a-9edb-4fd1-9be5-aa6066214172")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "LED_C273611_V2"
+		(at 0 1.8 0)
+		(layer "F.Fab")
+		(uuid "540cb0f3-d1ae-4ebf-bd16-cfe16ac02f32")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78e741ee-73c2-4f7e-ae55-d2ad52fe8758")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e03dc70b-fde2-439b-ac9b-a9bb47140275")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.3 -0.92)
+		(end 0.3 -0.92)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a08fecdd-d4a4-453c-9620-ad4815b12941")
+	)
+	(fp_line
+		(start -0.3 0.92)
+		(end 0.3 0.92)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "310d7b34-0a3c-4a7b-8557-c602878ec96f")
+	)
+	(fp_circle
+		(center 0.875 -1.15)
+		(end 0.975 -1.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "69794ca7-c129-4c58-9f93-8b1c9cae18f6")
+	)
+	(fp_rect
+		(start -1.55 -1.45)
+		(end 1.55 1.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "580b2fd1-055c-494e-b698-92d3708044c6")
+	)
+	(fp_line
+		(start 0.5 -0.75)
+		(end 0.8 -0.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9622f223-585e-49be-80a4-dd5fd3f6c761")
+	)
+	(fp_rect
+		(start -0.8 -0.75)
+		(end 0.8 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "87803929-3715-48bb-832d-67a74026e8b8")
+	)
+	(pad "1" smd rect
+		(at 0.875 -0.525)
+		(size 0.85 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bf18b345-21d1-4bd2-8af6-b04c37d81eb8")
+	)
+	(pad "2" smd rect
+		(at -0.875 -0.525)
+		(size 0.85 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bd60a8d0-e21a-49e6-8255-896593c72f86")
+	)
+	(pad "3" smd rect
+		(at -0.875 0.525)
+		(size 0.85 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0413a941-e5ba-4397-892f-3b0a355e8312")
+	)
+	(pad "4" smd rect
+		(at 0.875 0.525)
+		(size 0.85 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cced281c-ed60-43d8-9ee4-8141481ea0cf")
+	)
+	(embedded_fonts no)
+)

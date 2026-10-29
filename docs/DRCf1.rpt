@@ -1,0 +1,82 @@
+** Drc report for STM H7 KEYBOARD.kicad_pcb **
+** Created on 2026-10-30T00:02:07 **
+** Report includes: Errors, Warnings **
+
+** Found 21 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(239.0000 mm, 54.5000 mm): Track [RGB_DATA_3V3] on F.Cu, length 3.8250 mm
+[lib_footprint_issues]: The current configuration does not include the footprint library 'PCM_marbastlib-mx'
+    Local override; warning
+    @(73.1663 mm, 129.2300 mm): Footprint S4
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.7mm_M2.5' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(330.0000 mm, 39.5000 mm): Footprint H4
+[lib_footprint_issues]: The current configuration does not include the footprint library 'PCM_marbastlib-mx'
+    Local override; warning
+    @(182.7038 mm, 148.2800 mm): Footprint S1
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.7mm_M2.5' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(215.0000 mm, 146.0000 mm): Footprint H7
+[lib_footprint_mismatch]: Footprint 'Fiducial_1mm_Mask2mm' does not match copy in library 'Fiducial'
+    Local override; warning
+    @(358.0000 mm, 40.0000 mm): Footprint FID2
+[lib_footprint_mismatch]: Footprint 'Fiducial_1mm_Mask2mm' does not match copy in library 'Fiducial'
+    Local override; warning
+    @(55.0000 mm, 40.0000 mm): Footprint FID1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'PCM_marbastlib-mx'
+    Local override; warning
+    @(318.4350 mm, 72.0800 mm): Footprint S3
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.7mm_M2.5' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(155.0000 mm, 146.0000 mm): Footprint H6
+[lib_footprint_mismatch]: Footprint 'Texas_X2QFN-12_1.6x1.6mm_P0.4mm' does not match copy in library 'Package_DFN_QFN'
+    Local override; warning
+    @(204.0000 mm, 46.5000 mm): Footprint U7
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.7mm_M2.5' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(65.0000 mm, 39.5000 mm): Footprint H1
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.7mm_M2.5' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(232.0000 mm, 40.0000 mm): Footprint H3
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.7mm_M2.5' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(75.0700 mm, 148.0000 mm): Footprint H5
+[lib_footprint_issues]: The current configuration does not include the footprint library 'PCM_marbastlib-mx'
+    Local override; warning
+    @(316.0537 mm, 110.1800 mm): Footprint S2
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.7mm_M2.5' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(150.0000 mm, 39.5000 mm): Footprint H2
+[lib_footprint_mismatch]: Footprint 'Fiducial_1mm_Mask2mm' does not match copy in library 'Fiducial'
+    Local override; warning
+    @(55.0000 mm, 104.0000 mm): Footprint FID3
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.7mm_M2.5' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(301.2900 mm, 148.5000 mm): Footprint H8
+[lib_footprint_mismatch]: Footprint 'Fiducial_1mm_Mask2mm' does not match copy in library 'Fiducial'
+    Local override; warning
+    @(55.0000 mm, 40.0000 mm): Footprint FID4
+[lib_footprint_mismatch]: Footprint 'Fiducial_1mm_Mask2mm' does not match copy in library 'Fiducial'
+    Local override; warning
+    @(55.0000 mm, 104.0000 mm): Footprint FID6
+[lib_footprint_mismatch]: Footprint 'Fiducial_1mm_Mask2mm' does not match copy in library 'Fiducial'
+    Local override; warning
+    @(358.0000 mm, 40.0000 mm): Footprint FID5
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(130.3000 mm, 52.2500 mm): Circle of U6 on F.Silkscreen
+    @(130.7250 mm, 52.2500 mm): Pad 1 [GND] of U6 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
