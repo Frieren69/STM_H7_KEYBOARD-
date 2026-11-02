@@ -194,6 +194,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -876,6 +999,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "consider test pad for continuing strip"
+		(exclude_from_sim no)
+		(at 317.754 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "82cacbc2-a463-4ddb-8343-5ab332ac07d4")
+	)
 	(junction
 		(at 331.47 189.23)
 		(diameter 0)
@@ -1289,10 +1422,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe7b565e-5cab-49fd-acd9-1ee807fcc6d3")
-	)
-	(no_connect
-		(at 303.53 251.46)
-		(uuid "729d4184-3a20-48e3-8303-c47ce99c6e02")
 	)
 	(wire
 		(pts
@@ -3033,6 +3162,16 @@
 			(type default)
 		)
 		(uuid "a81bd174-ac54-4742-9a30-5de6e992e68b")
+	)
+	(wire
+		(pts
+			(xy 303.53 251.46) (xy 335.28 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a844f02c-d4f1-47d4-a615-f5af525a290d")
 	)
 	(wire
 		(pts
@@ -13729,7 +13868,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "52166b63-6967-43b8-b25e-e0b1de5c6573")
 		(property "Reference" "R1"
@@ -29918,6 +30057,84 @@
 			(project "USB"
 				(path "/f4c9a218-5993-4849-8715-01a78982add5/2051df76-c1b5-4412-89a7-4cea5b82dc55/ddf2aea7-bbb4-4984-9e1b-8517dadbc75e"
 					(reference "C150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 335.28 251.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8882766-2673-44e3-a791-34037c6ef4ee")
+		(property "Reference" "TP6"
+			(at 328.676 244.348 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 326.136 246.888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 340.36 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 335.28 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c029a29d-87ff-4ef7-b1ca-6fd6388628ec")
+		)
+		(instances
+			(project "STM H7 KEYBOARD"
+				(path "/c34a3edb-9280-43bd-9a98-bf535a59cd16/4ef88aa0-a1f3-4350-b005-a37be90886d3/2051df76-c1b5-4412-89a7-4cea5b82dc55/ddf2aea7-bbb4-4984-9e1b-8517dadbc75e"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
