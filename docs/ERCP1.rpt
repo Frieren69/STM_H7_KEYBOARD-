@@ -1,0 +1,21 @@
+ERC report (2026-11-16T16:48:09, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol 'AO3400A' doesn't match copy in library 'Transistor_FET'
+    ; warning
+    @(3600 mils, 7550 mils): Symbol Q1 [AO3400A]
+
+***** Sheet /Power_block/
+
+***** Sheet /Power_block/MCU/
+
+***** Sheet /Power_block/MCU/RGBSK/
+
+ ** ERC messages: 1  Errors 0  Warnings 1
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
